@@ -24,7 +24,7 @@ jobs:
 
     - name: Auth
 
-      run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN1
+      run: .\ngrok\ngrok.exe authtoken $Env:NGROK_AUTH_TOKEN
 
       env:
 
